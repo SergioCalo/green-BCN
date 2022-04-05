@@ -4,12 +4,9 @@
 
 
 import streamlit as st
-from libpysal import weights, examples
-from contextily import add_basemap
 import matplotlib.pyplot as plt
 import networkx as nx
 import numpy as np
-import geopandas
 import pandas as pd
 import pickle
 from utils_app import stats, stats_alpha, weight
