@@ -13,7 +13,7 @@ from utils_app import stats, stats_alpha, weight
 
 edges = pd.read_csv('./data/graph_mix.csv')
 
-with open('../data/positions.pkl', 'rb') as f:
+with open('./data/positions.pkl', 'rb') as f:
     positions = pickle.load(f)
     
 node_features = []
